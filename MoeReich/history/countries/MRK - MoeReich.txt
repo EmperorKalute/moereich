@@ -1,7 +1,7 @@
 ﻿capital = 6
 
 OOB = "MRK"
-#set_naval_oob= "AST_naval"
+set_naval_oob= "MRK_naval"
 
 
 set_research_slots = 3
@@ -226,23 +226,64 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "M.C.L. Keyaerts"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { trait_mountaineer hill_fighter }
-	skill = 4
+	name = "Prinz"
+	portrait_path = "gfx/leaders/MRK/Portrait_MRK_Prinz.tga"
+	traits = { 
+	    politically_connected
+		bearer_of_artillery
+	}
+	skill = 3
 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
+create_corps_commander = {
+       name = "Starguard"
+       portrait_path = "gfx/leaders/MRK/Portrait_MRK_Starguard.tga"
+       traits = {
+           trickster brilliant_strategist politically_connected
+       }
+       skill = 5
+       attack_skill = 4
+       defense_skill = 5
+       planning_skill = 3
+       logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Michel de Chypre"
+	portrait_path = "gfx/leaders/MRK/Portrait_MRK_Michel_de_Chypre.tga"
+	traits = { 
+        naval_invader
+		trait_reckless
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Arische"
+	portrait_path = "gfx/leaders/MRK/Portrait_MRK_Arische.tga"
+	traits = { 
+        old_guard
+		trait_reckless
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
 create_field_marshal = {
 	name = "Rei"
 	portrait_path = "gfx/leaders/MRK/Portrait_MRK_Rei_VL_Military.tga"
 	traits = {
 		war_hero
 		offensive_doctrine
-		expert_delegator
 		inspirational_leader
 	}
 	skill = 3

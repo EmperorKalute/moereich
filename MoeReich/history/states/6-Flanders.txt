@@ -22,11 +22,7 @@ state = {
 			air_base = 3
 			dockyard = 1
 			6446 = {
-				naval_base = 3
 				bunker = 4
-			}
-			6598 = { # Forgotten Port of Antwerp, level 5 minimum
-				naval_base = 5
 			}
 			3576 = {
 				bunker = 2
@@ -39,10 +35,12 @@ state = {
 			}
 			13659 = {
 				bunker = 1
+				naval_base = 3
 			}
 			6598 = {
 				bunker = 5
 				coastal_bunker = 2
+				naval_base = 5
 			}
 			11419 = {
 				bunker = 1
